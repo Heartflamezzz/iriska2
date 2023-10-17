@@ -9,6 +9,8 @@
     background-image: url('images/Halloween Candy.png');
     background-repeat: no-repeat;
     z-index: 9999;
+    display: grid;
+    height: 100%;
 }
 
 .container {
