@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.transfer{
+    background-image: url('images/Halloween Candy.png');
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 3px solid rgba(0, 128, 0, 0.41);
+    background-color: white;
+    cursor: pointer;
+    padding: 30px 100px;
+}
+
+.tap__links:first-of-type {
+    margin-left: 5px;
+}
+
+.telegram-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 1px solid green;
+    background-color: white;
+    cursor: pointer;
+    padding: 30px 100px;
+}
+
+.tap__links:last-of-type {
+    margin-left: 5px;
+}
+
+.instagram-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 1px solid green;
+    background-color: white;
+    cursor: pointer;
+    padding: 30px 100px;
+}
+
+.tap__links:not(:first-of-type, :last-of-type) {
+    margin-left: 5px;
+}
+
+.tap__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Montserrat, light, italic;
+    font-weight: 300;
+    font-size:15px;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+button:is(:not(:last-of-type)) {
+    margin-bottom: 20px;
+}
+
+button:first-of-type {
+    margin-top: 50px;
+}
